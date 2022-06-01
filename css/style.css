@@ -107,3 +107,76 @@ header .icon .far {
     height: 452px;
     width: 452px;
 }
+
+.benefit {
+    margin: 50px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #edfdf4;
+    padding: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.benefit .benefit-box h2 {
+    color: rgb(3, 3, 83);
+    font-size: 1.2rem;
+}
+
+.benefit .benefit-box .fas {
+    padding-right: 10px;
+    font-size: 1.8rem;
+}
+
+.benefit .benefit-box p {
+    padding: 20px;
+    color: gray;
+    font-size: .9rem;
+}
+
+.sanitizer {
+    margin: 50px 150px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.sanitizer .sanitizer-box {
+    display: flex;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.sanitizer .sanitizer-box .sanitizer__img img {
+    height: 100px;
+    width: 100px;
+}
+
+.sanitizer .sanitizer__green {
+    background-image: linear-gradient( 135deg, #81FBB8 10%, #28C76F 100%);
+}
+
+.sanitizer .sanitizer__blue {
+    background-image: linear-gradient( 135deg, #ABDCFF 10%, #0396FF 100%);
+}
+
+.sanitizer .sanitizer__yellow {
+    background-image: linear-gradient( 135deg, #FDEB71 10%, #F8D800 100%);
+}
+
+.sanitizer__info h2 {
+    font-size: 1.5rem;
+    padding-bottom: 40px;
+}
+
+.sanitizer__info p {
+    padding-bottom: 10px;
+    font-size: .8rem;
+}
+
+.sanitizer__info a {
+    color: white;
+}
